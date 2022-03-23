@@ -1,0 +1,8 @@
+---
+## Подключаем файл для конфигурирования iptables
+- name: Import install iptables service
+  import_tasks: install-iptables-service.yml
+
+## Подключаем файл для конфигурирования iptables
+- name: Import iptables-rules.yml
+  import_tasks: iptables-rules.yml

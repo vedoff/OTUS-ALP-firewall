@@ -1,0 +1,7 @@
+---
+# handlers file for router
+- name: iptables started
+  systemd:
+    name: iptables
+    enabled: yes
+    state: started
