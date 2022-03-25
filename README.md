@@ -8,7 +8,16 @@
 6. Реализовать knocking port.
 7. centralRouter может попасть на ssh inetrRouter через knock скрипт.
 
+### Схема стенда
+![]()
+
 ## Реализация
 Разворачиваем стенд: \
 `vagrant up`
 
+#### 1. Запустить nginx на centralServer.
+`ansible-playbook nginx-play.yml`
+
+![](https://github.com/vedoff/firewall/blob/main/pict/Screenshot%20from%202022-03-24%2017-55-17.png)
+
+![](https://github.com/vedoff/firewall/blob/main/pict/Screenshot%20from%202022-03-24%2017-55-52.png)
