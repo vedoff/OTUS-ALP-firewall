@@ -46,4 +46,8 @@
 
 ![](https://github.com/vedoff/firewall/blob/main/pict/Screenshot%20from%202022-03-25%2013-08-36.png)
 
+### 3. Knocking port
+Выполнить роль: \
+`ansible-playbook route-knock-play.yml`
+Реализация схемы правил knoking использует [статью](https://otus.ru/nest/post/267/)
 
