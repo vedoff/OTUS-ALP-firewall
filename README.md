@@ -28,6 +28,8 @@
 - Дефолт в инет оставить через inetRouter.
 - Пробросить 80й порт на inetRouter2 8080.
 - Реализовать проход на 80й порт без маскарадинга.
+### Gateway через inetRouter
+![](https://github.com/vedoff/firewall/blob/main/pict/Screenshot%20from%202022-03-25%2017-34-09.png)
 ### iptables 
 ![](https://github.com/vedoff/firewall/blob/main/pict/Screenshot%20from%202022-03-25%2012-59-05.png)
 ### Проброс порта на пограничном роутере inetRouter
@@ -55,12 +57,7 @@
 2. Выполним запуск скрипта из дериктории пользователя `vagrant` `run-knock.sh` \
 3. В течении 30 секунд запустить попытку входа на сервер `inetRouter` `ssh vagrant@10.10.10.1` 
 
-Так отрабатывает скрипт:
+Так отрабатывает скрипт и попытки входа на сервер. Логинимся с `office -> inetRouter`
 
-![]()
-
-Попытки входа на сервер:
-
-![]()
-
+![](https://github.com/vedoff/firewall/blob/main/pict/Screenshot%20from%202022-03-25%2017-30-14.png)
 
