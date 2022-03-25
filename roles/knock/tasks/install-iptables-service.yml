@@ -16,4 +16,4 @@
     name:
       - nmap
   when: 
-    - ansible_hostname == "centralRouter"
+    - ansible_hostname == "office"

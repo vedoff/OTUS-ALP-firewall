@@ -1,5 +1,5 @@
 ---
-- hosts: router
+- hosts: knock-host
   become:
     true
   roles:

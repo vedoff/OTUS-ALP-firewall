@@ -46,7 +46,7 @@
     group: "vagrant"
     mode: '0774'
   when: 
-    - ansible_hostname == "centralRouter"
+    - ansible_hostname == "office"
 
 ## Копирование файла run-knock.sh в дерикторию vagrant
 - name: Copy file run-knock.sh
@@ -57,4 +57,4 @@
     group: "vagrant"
     mode: '0774'
   when: 
-    - ansible_hostname == "centralRouter"
+    - ansible_hostname == "office"
