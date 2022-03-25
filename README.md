@@ -9,7 +9,7 @@
 7. centralRouter может попасть на ssh inetrRouter через knock скрипт.
 
 ### Схема стенда
-![]()
+![](https://github.com/vedoff/firewall/blob/main/pict/Screenshot%20from%202022-03-25%2012-39-14.png)
 
 ## Реализация
 Разворачиваем стенд: \
