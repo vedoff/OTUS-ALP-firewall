@@ -56,3 +56,5 @@
 3. В течении 30 секунд запустить попытку входа на сервер `inetRouter` `ssh vagrant@10.10.10.1` 
 ![](https://github.com/vedoff/firewall/blob/main/pict/Screenshot%20from%202022-03-23%2015-52-21.png)
 
+
+
