@@ -44,6 +44,6 @@
 
 А так на роутере при пересылке пакетов
 
-![]()
+![](https://github.com/vedoff/firewall/blob/main/pict/Screenshot%20from%202022-03-25%2013-08-36.png)
 
 
