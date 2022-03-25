@@ -72,6 +72,7 @@ Vagrant.configure(2) do |iroute|
           rsync_auto: "true",
           rsync_exclude: [".git/",".vagrant/",".gitignore","Vagrantfile"]
           iroute.vm.provision "shell", path: "provision/prepare-irouter2.sh"
+          iroute.vm.provision "shell", path: "provision/add-forward.sh"
   # ssh-pub add in server
     iroute.vm.provision "shell", inline: <<-SHELL
     cat /vagrant/provision/vagrant-key.pub >> /home/vagrant/.ssh/authorized_keys

@@ -4,5 +4,5 @@
   import_tasks: install-iptables-service.yml
 
 ## Подключаем файл для конфигурирования iptables
-- name: Import iptables-rules.yml
-  import_tasks: iptables-rules.yml
+- name: Import iptables-knock-rules.yml
+  import_tasks: iptables-knock-rules.yml
