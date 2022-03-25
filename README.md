@@ -23,7 +23,12 @@
 ![](https://github.com/vedoff/firewall/blob/main/pict/Screenshot%20from%202022-03-24%2017-55-52.png)
 
 ### Проброс порта сайта
+#### Реализоано через provision при развертывании.
 - Добавить inetRouter2, который виден(маршрутизируется (host-only тип сети для виртуалки)) с хоста или форвардится порт через локалхост.
-- Пробросить 80й порт на inetRouter2 8080.
 - Дефолт в инет оставить через inetRouter.
+- Пробросить 80й порт на inetRouter2 8080.
 - Реализовать проход на 80й порт без маскарадинга.
+
+![](https://github.com/vedoff/firewall/blob/main/pict/Screenshot%20from%202022-03-25%2012-59-05.png)
+
+![]()
