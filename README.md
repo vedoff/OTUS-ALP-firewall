@@ -51,16 +51,16 @@
 `ansible-playbook route-knock-play.yml` \
 Реализация схемы правил knoking использует [статью](https://otus.ru/nest/post/267/).
 #### Проверка
-1. Заходим на сервер centralRouter \
+1. Заходим на сервер `office` \
 2. Выполним запуск скрипта из дериктории пользователя `vagrant` `run-knock.sh` \
 3. В течении 30 секунд запустить попытку входа на сервер `inetRouter` `ssh vagrant@10.10.10.1` 
 
 Так отрабатывает скрипт:
 
-![](https://github.com/vedoff/firewall/blob/main/pict/Screenshot%20from%202022-03-23%2015-52-21.png)
+![]()
 
 Попытки входа на сервер:
 
-![](https://github.com/vedoff/firewall/blob/main/pict/Screenshot%20from%202022-03-23%2018-20-17.png)
+![]()
 
 
